@@ -1,0 +1,58 @@
+.readContent {
+    display: flex;
+    flex-direction: column;
+    width: 60%;
+    padding-top: 50px;
+    padding-bottom: 40px;
+
+    .copyContainer {
+        
+        .extraContentText {
+            font-family: 'Montserrat', sans-serif;
+            font-size: large;
+            letter-spacing: 1.3px;
+            margin: 0;
+            padding: 0;
+        }
+
+        .headlineContentText {
+            font-family: 'Montserrat', sans-serif;
+            font-size: 25px;
+            font-weight: 500;
+        }
+
+        .contentText {
+            font-family: 'Montserrat', sans-serif;
+            font-size: large;
+            letter-spacing: 1.3px;
+            margin: 0;
+            padding: 0;
+            
+        }
+    }
+
+    .read-more-link {
+        display: flex;
+        flex-direction: row;
+        align-items: center;
+        text-decoration: none;
+        padding-top: 10px;
+        
+
+        .lasMer {
+            font-family: 'Montserrat', sans-serif;
+            color: #fc650a;
+            letter-spacing: 2px;
+            font-weight: 100;
+            font-size: 20px;
+
+        }
+
+        .arrow {
+            color: #fc650a;
+            font-size: 35px;
+            padding-left: 10px;
+
+        }
+    }
+}

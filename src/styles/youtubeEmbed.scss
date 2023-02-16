@@ -1,0 +1,179 @@
+.mainVideoPage {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+    .liveVideos-title {
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        color: white;
+       
+    }
+
+    .videoWrapper {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+
+        .videoImageDiv {
+            position: relative;
+            display: flex;
+            flex-direction: column;
+
+
+            .imageCover {
+                display: block;
+               
+
+            }
+
+            .playIcon {
+                position: absolute;
+                color: rgba(255, 255, 255, 0.275);
+                
+            }
+
+            .watchNow {
+               
+
+                .videoTitle {
+                    font-size: 1.25em;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    font-family: 'Montserrat', sans-serif;
+                }
+
+                .videoBtn {
+                    background-color: transparent;
+                    border: #fc650a 1px solid;
+                    color: white;
+                    text-align: center;
+                    text-decoration: none;
+                    display: inline-block;
+                    text-transform: uppercase;
+                    letter-spacing: 2px;
+                    font-family: 'Montserrat', sans-serif;
+                }
+
+                
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .mainVideoPage {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        .liveVideos-title {
+            font-size: 30px;
+            font-weight: 200;
+            padding: 20px;
+        }
+    
+        .videoWrapper {
+            gap: 50px;
+    
+            .videoImageDiv {
+    
+    
+                .imageCover {
+                    cursor: pointer !important;
+    
+                }
+    
+                .playIcon {
+                    font-size: 90px;
+                    bottom: 250px;
+                    right: 230px;
+                }
+    
+                .watchNow {
+                    margin-top: 50px;
+    
+                    .videoTitle {
+                        font-size: 1.25em;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+    
+                    .videoBtn {
+                      
+                        padding: 8px 62px;
+                        
+                        font-size: 16px;
+                       
+                    }
+    
+                }
+            }
+        }
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .mainVideoPage {
+        padding: 50px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+    
+        .liveVideos-title {
+            font-weight: 300;
+            font-size: 60px;
+            padding: 50px;
+        }
+    
+        .videoWrapper {
+            gap: 50px;
+    
+            .videoImageDiv {
+    
+    
+                .imageCover {
+                    cursor: pointer !important;
+    
+                }
+    
+                .playIcon {
+                    font-size: 90px;
+                    bottom: 280px;
+                    right: 230px;
+                }
+    
+                .watchNow {
+                    margin-top: 50px;
+    
+                    .videoTitle {
+                        font-size: 1.25em;
+                        text-transform: uppercase;
+                        letter-spacing: 2px;
+                        font-family: 'Montserrat', sans-serif;
+                    }
+    
+                    .videoBtn {
+                      
+                        padding: 8px 62px;
+                        
+                        font-size: 16px;
+                       
+                    }
+    
+                    .videoBtn:hover {
+                        background-color: white;
+                        color: #fc650a;
+                    }
+                }
+            }
+        }
+    }
+}

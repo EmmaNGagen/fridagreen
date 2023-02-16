@@ -1,0 +1,67 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital,wght@0,100;0,300;0,400;0,500;0,700;0,900;1,100;1,300;1,400;1,500;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+@import "home";
+@import "youtubeEmbed";
+@import "about";
+@import "footer";
+
+body {
+    background-image: url(../components/assets/background.png);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size:cover;
+    color: white;
+    font-family: 'Roboto', sans-serif;
+}
+
+.layoutsWrapper {
+    .headerSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        padding-top: 20px;
+        
+        .soMeIconsDiv {
+            display: flex;
+            align-items: center;
+            gap: 10px;
+
+            .faInstagram {
+                font-size: 35px;
+               color: #ffc124;
+               
+            }
+
+            .faYoutube {
+                font-size: 35px;
+                color: #ffc124;
+            }
+        }
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .layoutsWrapper {
+        .headerSection {
+          
+            padding-top: 20px;
+            
+            .soMeIconsDiv {
+                gap: 10px;
+                padding-bottom: 50px;
+    
+                .faInstagram {
+                    font-size: 35px;
+                   color: #ffc124;
+                   
+                }
+    
+                .faYoutube {
+                    font-size: 35px;
+                    color: #ffc124;
+                }
+            }
+        }
+    }
+}

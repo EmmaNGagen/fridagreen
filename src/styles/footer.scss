@@ -1,0 +1,198 @@
+.container {
+    display: flex;
+    flex-direction: column;
+
+    .contactSection {
+        display: flex;
+        flex-direction: row;
+        justify-content: center;
+        align-items: center;
+        justify-content: center;
+
+
+        .contact-text {
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+        }
+
+        .email-link {
+            text-decoration: none;
+            color: white;
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+        }
+    }
+
+    .soMeSection {
+
+        .follow-text {
+            text-transform: uppercase;
+            font-family: 'Montserrat', sans-serif;
+
+
+        }
+
+        .soMeIconsDiv {
+
+            display: flex;
+            flex-direction: row;
+            align-items: center;
+            justify-content: center;
+
+
+            .faInstagram {
+
+                color: #e96d2d;
+
+            }
+
+            .faYoutube {
+
+                color: #e96d2d;
+            }
+
+            .faFacebook {
+
+                color: #e96d2d;
+            }
+        }
+
+    }
+}
+
+.Copyright-div {
+
+    .Copyright-text {
+        text-transform: uppercase;
+        font-family: 'Montserrat', sans-serif;
+        letter-spacing: 2px;
+        color: #e96d2d;
+    }
+}
+
+@media screen and (max-width: 769px) {
+    .container {
+
+
+        .contactSection {
+
+            padding: 20px;
+            gap: 10px;
+
+            .contact-text {
+                font-size: 11px;
+                letter-spacing: 2px;
+                margin: 0;
+                padding: 0;
+            }
+
+            .email-link {
+                font-size: 13px;
+                color: #ffc124;
+            }
+        }
+
+        .soMeSection {
+            padding: 10px;
+
+            .follow-text {
+                letter-spacing: 2px;
+
+            }
+
+            .soMeIconsDiv {
+
+                gap: 20px;
+                padding: 10px;
+
+                .faInstagram {
+                    font-size: 40px;
+
+
+                }
+
+                .faYoutube {
+                    font-size: 40px;
+
+                }
+
+                .faFacebook {
+                    font-size: 40px;
+
+                }
+            }
+
+        }
+    }
+
+    .Copyright-div {
+        padding-top: 40px;
+
+        .Copyright-text {
+            font-size: 8px;
+
+        }
+    }
+}
+
+@media screen and (min-width: 770px) {
+    .container {
+
+
+        .contactSection {
+
+            padding: 30px;
+            gap: 10px;
+
+            .contact-text {
+
+                letter-spacing: 2px;
+                margin: 0;
+                padding: 0;
+            }
+
+            .email-link {}
+        }
+
+        .soMeSection {
+            padding: 10px;
+
+            .follow-text {
+                letter-spacing: 2px;
+
+            }
+
+            .soMeIconsDiv {
+
+                gap: 20px;
+                padding: 10px;
+
+                .faInstagram {
+                    font-size: 40px;
+
+
+                }
+
+                .faYoutube {
+                    font-size: 40px;
+
+                }
+
+                .faFacebook {
+                    font-size: 40px;
+
+                }
+            }
+
+        }
+    }
+
+    .Copyright-div {
+        padding-top: 40px;
+
+        .Copyright-text {
+            font-size: 10px;
+
+        }
+    }
+}
